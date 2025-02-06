@@ -1,0 +1,169 @@
+*{
+    margin:0;
+    padding: 0;
+}
+/* @font-face {
+    font-family: mi-fuente-personalizada;
+    src: url(fonts/Marlboro.ttf);
+}
+@font-face {
+    font-family: mi-fuente-personalizada1;
+    src: url(fonts/Olde\ English\ Regular.ttf);
+} */
+@media(max-width: 650){
+    body{
+        background-color: aliceblue;
+    }
+}
+
+body{
+font-family: sans-serif;
+background-color: rgb(242, 236, 236);
+color: rgb(78, 74, 74);
+
+}
+.container{
+    max-width: 1024px;
+    margin:0 auto;
+    height: 100px;
+}
+
+main{
+    display:inline-block;
+    width: 65%;
+    vertical-align: top;
+}
+section{
+    padding: 10px;
+}
+main ol {
+    padding-left: 1em ;
+}
+
+aside{
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    border: solid rgb(173, 13, 13) 3px;
+    padding: 1em;
+    background-color: white;
+    margin-bottom: 1em;
+
+}
+aside video, aside form, aside iframe{
+    width: 100%;
+}
+
+header{
+    background-color: rgb(255, 196, 239);
+    text-align: center;
+
+}
+
+footer{
+    background-color: rgb(197, 192, 192);
+    text-align: center;
+    padding: 15px;
+}
+
+h1,form,table{
+    font-family: mi-fuente-personalizada;
+    padding: 30px;
+
+}
+
+h2,p,li{
+    font-family: mi-fuente-personalizada1;
+    text-align: center;
+    
+}
+h2{
+    padding: 20px;
+}
+nav a{
+    border: red 3px solid;
+    text-decoration: none;
+    margin: 15px;
+    padding: 5px;
+    display: inline-block;
+    box-shadow: 3px 4px 5px black;
+    font-family: mi-fuente-personalizada1;
+}
+
+nav a:hover {
+    background-color: orange;
+    cursor:copy;
+  }
+
+table {
+
+    padding: 0;
+    width: 100%;
+    border: 1px solid #000;
+    background-color: white;
+ }
+ th, td,tr {
+   
+    vertical-align: top;
+    border: 1px solid #000;
+
+ }
+
+
+
+ form input,form label,textarea, form button{
+    display: block;
+    width: 100%;
+ }
+
+button{
+    background-color:aqua;
+    padding: 5px;
+    box-shadow: 3px 4px 5px black;
+    
+ }
+
+ form{
+	width:250px;
+	padding:0;
+	border-radius:10px;
+	margin:auto;
+
+}
+
+form label{
+	width:72px;
+	font-weight:bold;
+	display:inline-block;
+}
+
+form input[type="text"],
+form input[type="email"]{
+	width:180px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+
+
+
+textarea{
+	width:100%;
+	height:80px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;			
+	margin:8px 0;
+	/*resize: vertical | horizontal | none | both*/
+	resize:none;
+	display:block;
+}
+
+img{
+   border-radius: 50%;
+   border-color: black;
+    
+}
