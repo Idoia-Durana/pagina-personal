@@ -42,33 +42,35 @@ main ol {
 
 aside{
     display: inline-block;
-    width: 30%;
+    width: 34%;
     vertical-align: top;
-    border: solid rgb(173, 13, 13) 3px;
+    
     padding: 1em;
     background-color: white;
     margin-bottom: 1em;
 
 }
-aside video, aside form, aside iframe{
+aside form, aside iframe{
     width: 100%;
+    
 }
 
 header{
     background-color: rgb(255, 196, 239);
     text-align: center;
-
+    padding: 50px;
+    inset: auto;
 }
 
 footer{
     background-color: rgb(197, 192, 192);
     text-align: center;
-    padding: 15px;
+    margin: 0 auto;
 }
 
 h1,form,table{
     font-family: mi-fuente-personalizada;
-    padding: 30px;
+    padding: 80px;
 
 }
 
@@ -97,10 +99,8 @@ nav a:hover {
 
 table {
 
-    padding: 0;
-    width: 100%;
     border: 1px solid #000;
-    background-color: white;
+    
  }
  th, td,tr {
    
@@ -164,6 +164,6 @@ textarea{
 
 img{
    border-radius: 50%;
-   border-color: black;
+   overflow: hidden;
     
 }
